@@ -1,0 +1,19 @@
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding: 40px;
+    
+}
+
+.card{
+    box-shadow: 0 0 10px #cdcdcd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.card img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
