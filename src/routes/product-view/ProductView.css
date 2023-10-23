@@ -1,0 +1,36 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.product__wrapper{
+    padding: 40px;
+    background-color: lightcyan;
+    height: 100vh;
+}
+
+.product__item{
+    display: flex;
+    gap: 50px;
+}
+
+.product__item img{
+    width: 50%;
+    height: 100%;
+}
+
+.product__item h3{
+    font-size: 2rem;
+}
+
+.product__item p{
+    font-size: 1.5rem;
+    max-width: 540px;
+}
+
+.product__item div{
+    width: 50%;
+}
