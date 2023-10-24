@@ -6,6 +6,7 @@ import ProductView from "./routes/product-view/ProductView";
 import Nav from "./components/nav/Nav";
 import Login from "./routes/login/Login";
 import User from "./routes/user/User";
+import Dashboard from "./routes/dashboard/Dashboard";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/user" element={<User />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/product-view/:id" element={<ProductView />} />
       </Routes>
     </>
