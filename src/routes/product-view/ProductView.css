@@ -7,6 +7,10 @@ body{
     margin-top: 100px;
 }
 
+.pi{
+    color: blueviolet;
+    text-align: center;
+}
 
 .product__wrapper{
     padding: 40px;
