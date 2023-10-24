@@ -1,19 +1,59 @@
+body ::selection{
+    font-size: 18px;
+    background-color: blueviolet;
+    color: #fff;
+}
 
+a{
+    text-decoration: none;
+
+}
 .cards{
+    margin-top: 130px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    padding: 40px;
-    
+    padding: 50px;
+    position: relative;
 }
 
 .card{
+    /* max-width: 400px; */
     box-shadow: 0 0 10px #cdcdcd;
     border-radius: 5px;
     padding: 10px;
+    color: dodgerblue;
+
 }
 
 .card img{
     width: 100%;
     aspect-ratio: 1/1;
+}
+
+.btns{
+    position: absolute;
+    left: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btns button{
+    padding: 5px 35px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(192, 192, 192);
+    background-color: blueviolet;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all .3s ease;
+}
+.btns button:hover{
+    opacity: .9;
+}
+
+.btns button:active{
+    transform: scale(.9);
 }
