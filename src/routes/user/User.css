@@ -12,7 +12,7 @@
 
 .account__item{
     padding-top: 30px;
-    color: blueviolet;
+    color: var(--secondary-blue-color);
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -26,8 +26,8 @@
 
 button{
     padding: 0 20px;
-    background-color: blueviolet;
-    color: #fff;
+    background-color: var(--secondary-blue-color);
+    color: var(--main-light-color);
     font-size: 18px;
     transform: all .3s ease;
 }
@@ -41,5 +41,5 @@ button:active{
 }
 
 .update-user{
-    color: dodgerblue;
+    color: var(--main-blue-color);
 }
