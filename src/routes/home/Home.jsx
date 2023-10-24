@@ -65,7 +65,7 @@ const Home = () => {
   return (
     <div className='cards'>
         {
-          apiResult.loading ? <p>Loading...</p> :
+          // apiResult.loading ? <p>Loading...</p> :
           apiResult.data.map((card) => {
             return (
                 <Link to={`/product-view/${card.id}`} className="card" key={card.id}>

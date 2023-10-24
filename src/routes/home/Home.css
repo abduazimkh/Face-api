@@ -1,7 +1,7 @@
 body ::selection{
     font-size: 18px;
-    background-color: blueviolet;
-    color: #fff;
+    background-color: var(--secondary-blue-color);
+    color: var(--main-light-color);
 }
 
 a{
@@ -22,7 +22,7 @@ a{
     box-shadow: 0 0 10px #cdcdcd;
     border-radius: 5px;
     padding: 10px;
-    color: dodgerblue;
+    color: var(--main-blue-color);
 
 }
 
@@ -43,9 +43,9 @@ a{
     padding: 5px 35px;
     border-radius: 4px;
     box-shadow: 0 0 10px rgb(192, 192, 192);
-    background-color: blueviolet;
+    background-color: var(--secondary-blue-color);
     border: none;
-    color: #fff;
+    color: var(--main-light-color);
     font-weight: 600;
     font-size: 20px;
     transition: all .3s ease;
