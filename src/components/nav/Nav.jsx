@@ -7,7 +7,7 @@ const Nav = () => {
   const ACCESS_TOKEN = localStorage.getItem("user-token");
   const { pathname } = useLocation();
 
-  return !pathname.includes("login") && !pathname.includes("signup") && (
+  return !pathname.includes("login") && !pathname.includes("signup") && !pathname.includes("dashboard") && (
     <div className="nav__wrapper">
       <form id="form">
         <input id="search" type="text" placeholder="Search" />
@@ -29,11 +29,14 @@ const Nav = () => {
       {ACCESS_TOKEN && (
         <div className="register">
           <Link to="/user">
-            <img src="" alt="" />
-            <p>abu</p>
+            <p>User account</p>
+          </Link>
+          <Link to="/dashboard">
+            <p>Dashboard</p>
           </Link>
         </div>
-      )}  
+      )}
+
 
     </div>
   );
