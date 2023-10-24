@@ -2,6 +2,7 @@ import './ProductView.css';
 import { useParams } from 'react-router-dom';
 import { apiInstance } from '../../api';
 import { useEffect, useState } from 'react';
+import Loader from '../../components/loader/Loader';
 
 
 const ProductView = () => {
@@ -38,7 +39,7 @@ const ProductView = () => {
     <div className='product__wrapper'>
 
         {
-            apiResult.loading ? <p className='pi'>Loading...</p> : 
+            apiResult.loading ? <Loader/> : 
             <div className='product__item'>
                 <img src={product.images[0]} alt="" />
                 <div className='div'>

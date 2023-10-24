@@ -7,10 +7,10 @@ body{
     margin-top: 100px;
 }
 
-.pi{
-    color: blueviolet;
+/* .pi{
+    color: var(--secondary-blue-color);
     text-align: center;
-}
+} */
 
 .product__wrapper{
     padding: 40px;
@@ -58,7 +58,7 @@ body{
 }
 
 .img-card img{  
-    border: 2px solid blueviolet;
+    border: 2px solid var(--secondary-blue-color);
     width: 140px;
     aspect-ratio: 1/1;
     margin-top: 240px;
