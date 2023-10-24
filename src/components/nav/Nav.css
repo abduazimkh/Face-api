@@ -1,0 +1,44 @@
+.nav__wrapper{
+    padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgb(203, 203, 203);  
+    background-color: #fff;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav__wrapper div{
+    position: absolute;
+    right: 150px;
+    display: flex;
+    gap: 30px;
+}
+
+form{
+    display: flex;
+    gap: 20px;
+        
+}
+
+form input{
+    font-size: 20px;
+    text-indent: 10px;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    box-shadow:inset 0 0 10px rgb(240, 240, 240);
+}
+
+form select{
+    font-size: 20px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    box-shadow:inset 0 0 10px rgb(240, 240, 240);
+}
