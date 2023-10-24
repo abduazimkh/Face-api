@@ -24,7 +24,7 @@
 
 
 #signup-form h2{
-    color: blueviolet;
+    color: var(--secondary-blue-color);
 }
 
 #signup-form input, button{
@@ -35,10 +35,10 @@
 }
 
 #signup-form button{
-    background-color: blueviolet;
+    background-color: var(--secondary-blue-color);
     padding: 10px;
     font-size: 18px;
-    color: #fff;
+    color: var(--main-light-color);
     transition: all .3s ease;
 }
 
