@@ -25,6 +25,16 @@ const Nav = () => {
           <Link to="/login">Log In</Link>
         </div>
       )}
+
+      {ACCESS_TOKEN && (
+        <div className="register">
+          <Link to="/user">
+            <img src="" alt="" />
+            <p>abu</p>
+          </Link>
+        </div>
+      )}  
+
     </div>
   );
 };
