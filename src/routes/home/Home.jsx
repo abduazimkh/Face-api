@@ -78,9 +78,11 @@ const Home = () => {
           })
         }
 
-        <button onClick={substractPage}>-</button>
-        {page}
-        <button onClick={addPage}>+</button>
+        <div className='btns'>
+          <button onClick={substractPage}>-</button>
+          {page}
+          <button onClick={addPage}>+</button>
+        </div>
     </div>
   )
 }
