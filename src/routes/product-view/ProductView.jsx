@@ -36,15 +36,22 @@ const ProductView = () => {
     let product = apiResult.data
   return (
     <div className='product__wrapper'>
+
         {
             apiResult.loading ? <p>Loading...</p> : 
             <div className='product__item'>
                 <img src={product.images[0]} alt="" />
-                <div>
+                <div className='div'>
                     <h3>{product.title}</h3>
                     <p>{product.description}</p>
                     <strong>${product.price}</strong>
+                <div className='img-card'>
+                    <img src={product.images[0]} alt="" />
+                    <img src={product.images[1]} alt="" />
+                    <img src={product.images[2]} alt="" />
                 </div>
+                </div>
+
             </div>
         }
     </div>
