@@ -1,0 +1,45 @@
+.user__account{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* display: flex; */
+    gap: 100px;
+    padding: 20px 200px;
+}
+
+.img img{
+    width: 80%;
+}
+
+.account__item{
+    padding-top: 30px;
+    color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.account__item button{
+    padding: 15px 0;
+    display: inline-block;
+    margin-top: 170px;
+}
+
+button{
+    padding: 0 20px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 18px;
+    transform: all .3s ease;
+}
+
+button:hover{
+    opacity: .9;
+}
+
+button:active{
+    transform: scale(.9);
+}
+
+.update-user{
+    color: dodgerblue;
+}
