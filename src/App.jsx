@@ -5,6 +5,7 @@ import Signup from "./routes/signup/Signup";
 import ProductView from "./routes/product-view/ProductView";
 import Nav from "./components/nav/Nav";
 import Login from "./routes/login/Login";
+import User from "./routes/user/User";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" exact element={<Home />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/user" element={<User />} />
         <Route path="/product-view/:id" element={<ProductView />} />
       </Routes>
     </>
