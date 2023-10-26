@@ -4,7 +4,7 @@ import { apiInstance } from "../../api";
 import "./Signup.css";
 import axios from "axios";
 import { useNavigate, Navigate } from 'react-router-dom'
-
+import btnIcon from '../../assets/images/square.gif'
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -64,6 +64,7 @@ const Signup = () => {
         />
 
         <button id="btn" type="submit">
+          <img src={btnIcon} alt="" />
           Submit
         </button>
       </form>
