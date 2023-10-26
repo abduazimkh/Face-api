@@ -1,22 +1,27 @@
 :root{
+    --main-light-color: #fff;
+    --main-dark-color: #000;
     --main-blue-color: dodgerblue;
     --secondary-blue-color: blueviolet;
-    --main-light-color: #fff;
+    --secondary-light-color: #FAFBFF;
     --main-light-shadow: inset 0 0 10px #f0f0f0;
+    --secondary-light-shadow: 0 0 30px #ac2b2b;
+    --main-text-font: 'Poppins', sans-serif;
 }
 
-a{
+/* a{
     color: var(--main-blue-color);
 }
 
 a:hover{
     color: var(--secondary-blue-color);
-}
+} */
 
 body::-webkit-scrollbar{
     -webkit-appearance: none;
     box-shadow: inset 0 0 40px #92c9ff;
     width: 30px;
+    font-family: var(--main-text-font);
 }
 
 body::-webkit-scrollbar-thumb{
