@@ -4,6 +4,7 @@ import signUp from "../../assets/images/signup.svg";
 import { apiInstance } from "../../api";
 import axios from "axios";
 import { useNavigate, Navigate } from 'react-router-dom';
+import btnIcon from '../../assets/images/square.gif'
 
 
 
@@ -21,7 +22,6 @@ const Login = () => {
         password: userPassword,
       });
       if(response.data.access_token){
-        console.log(response);
         localStorage.setItem("user-token", response.data.access_token)
         navigate("/");
       }
@@ -52,6 +52,7 @@ const Login = () => {
         />
 
         <button id="btn" type="submit">
+          <img src={btnIcon} alt="" />
           Submit
         </button>
       </form>
