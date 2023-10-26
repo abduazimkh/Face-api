@@ -41,6 +41,10 @@
     font-size: 18px;
     color: var(--main-light-color);
     transition: all .3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
 #login-form button:hover{
@@ -49,4 +53,8 @@
 
 #login-form button:active{
     transform: scale(.9);
+}
+
+#login-form button img{
+    width: 25px;
 }
